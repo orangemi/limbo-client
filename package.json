@@ -1,0 +1,32 @@
+{
+  "name": "limbo-client",
+  "version": "0.6.0",
+  "description": "Factory/Loader of mongoose",
+  "main": "./lib/limbo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha test/index.test.js"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "database",
+    "rpc",
+    "loader"
+  ],
+  "license": "MIT",
+  "author": "orangemi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orangemi/limbo-client.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+  },
+  "dependencies": {
+    "axon-tlx": "2.1.0",
+    "axon-rpc": "^0.0.3"
+  }
+}
